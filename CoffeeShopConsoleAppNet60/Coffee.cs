@@ -17,6 +17,6 @@ namespace CoffeeShopConsoleAppNet60
 
         public abstract string Strength();
         
-        
+       
     }
 }

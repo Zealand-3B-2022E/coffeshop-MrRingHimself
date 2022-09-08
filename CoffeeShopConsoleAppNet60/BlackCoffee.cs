@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace CoffeeShopConsoleAppNet60
 {
     public class BlackCoffee : Coffee
-    {
+    { 
+
         public override string Strength()
         {
             return "Strong";
@@ -16,6 +17,10 @@ namespace CoffeeShopConsoleAppNet60
         public BlackCoffee()
         {
 
+        }
+        public override string ToString()
+        {
+            return $"Black Coffee is {Strength()} and costs {Price()} ";
         }
     }
 }

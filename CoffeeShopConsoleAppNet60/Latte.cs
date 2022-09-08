@@ -22,5 +22,15 @@ namespace CoffeeShopConsoleAppNet60
         {
             return "Weak";
         }
+
+        public Latte()
+        {
+
+        }
+        
+        public override string ToString()
+        {
+            return $"Latte is {Strength()} and costs {Price()} ";
+        }
     }
 }

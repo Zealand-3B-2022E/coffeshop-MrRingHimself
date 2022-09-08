@@ -22,5 +22,14 @@ namespace CoffeeShopConsoleAppNet60
         {
             return "Medium";
         }
+
+        public Cortado()
+        {
+
+        }
+        public override string ToString()
+        {
+            return $"Cortado is {Strength()} and costs {Price()} ";
+        }
     }
 }
